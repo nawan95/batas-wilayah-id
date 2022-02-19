@@ -1,7 +1,8 @@
 ---
 title: Batas Wilayah Indonesia
 description: Tugas Presentasi Matakuliah Pendidikan Kewarganegaraan
-outputs: ["Reveal"][reveal_hugo]
+outputs:
+  - Reveal
 ---
 
 # Batas Wilayah Indonesia
