@@ -1,0 +1,33 @@
+name: Test HTML Presentation
+
+on:
+  push:
+    paths-ignore:
+      - 'LICENSE'
+      - 'README.md'
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+        with:
+          ref:  master
+
+      - name: Get theme
+        run: git submodule update --init --recursive
+      
+      - name: Update theme to the latest commit
+        run: git submodule update --remote --merge
+      
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.92.0'
+      
+      - name: Build HTML Presentation
+        run: hugo --gc --verbose --minify
