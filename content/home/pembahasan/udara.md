@@ -5,6 +5,8 @@ weight: 16
 {{% section %}}
 # Batas Udara Wilayah Indonesia
 
+---
+
 Wilayah kedaulatan udara suatu negara tertuang dalam Pasal 1 Konvensi Chicago, 1944 yang menyatakan bahwa negara-negara berdaulat utuh dan eksklusif terhadap ruang udara (airspace) di atas wilayahnya. Namun, Konvensi tersebut tidak pernah menjelaskan apa dan pada jarak berapa batas-batas wilayah udara di atas wilayah negara. Hal ini yang kemudian menimbulkan banyak sengketa dan perselisihan terkait batas kedaulatan wilayah suatu negara.
 
 ---
